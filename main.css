@@ -1,0 +1,24 @@
+  body {
+    background: #FF8b3d;
+    padding: 5px;
+    text-align: center;
+  }
+
+  h3 {color: #333}
+
+  button {
+    padding: 10px 0;
+    width: 150px;
+    outline: none;
+    background: #ffaf7a;
+    border: 1px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  button:hover {
+    background: #ff6600;
+    color: #fff;
+    border-color: #333;
+  }
