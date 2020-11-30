@@ -2,13 +2,20 @@
   "manifest_version": 2,
   "name": "No media post deliter",
   "version": "1.0.0",
+  "author" : "NHBR",
+  "browser_action": {
+		"default_title": "delete posts without image on 2ch",
+		"default_icon": "icon.png",
+		"default_popup": "index.html"
+	},
   "content_scripts": [
   {
     "matches": [
-      "2ch.hk"
+      "https://2ch.hk/*"
     ],
-    "js": ["main.js"]
+    "js": ["jquery.min.js", "main.js"]
   }
-]
+],
+"permissions": ["activeTab"]
 }
 
