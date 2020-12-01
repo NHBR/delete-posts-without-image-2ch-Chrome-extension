@@ -13,7 +13,7 @@
     "matches": [
       "https://2ch.hk/*"
     ],
-    "js": ["jquery.min.js", "main.js"]
+    "js": ["main.js"]
   }
 ],
 "permissions": ["activeTab"]
